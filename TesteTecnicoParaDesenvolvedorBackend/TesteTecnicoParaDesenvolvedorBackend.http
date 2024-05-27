@@ -1,0 +1,11 @@
+@TesteTecnicoParaDesenvolvedorBackend_HostAddress = http://localhost:5034
+
+GET {{TesteTecnicoParaDesenvolvedorBackend_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{TesteTecnicoParaDesenvolvedorBackend_HostAddress}}/todos/1
+Accept: application/json
+
+###
